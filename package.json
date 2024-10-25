@@ -1,0 +1,24 @@
+{
+  "name": "mygo-playwright-e2e",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test:qa:feature":"TEST_ENV=qa npx cucumber-js -p single",
+    "test:dev": "TEST_ENV=dev npx cucumber-js",
+    "test:qa": "TEST_ENV=qa npx cucumber-js",
+    "test:uat": "TEST_ENV=uat npx cucumber-js"
+  },           
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@cucumber/cucumber": "^11.0.1",
+    "@playwright/test": "^1.48.1",
+    "@types/node": "^22.7.9",
+    "dotenv": "^16.4.5",
+    "ts-loader": "^9.5.1",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.6.3"
+  }
+}
