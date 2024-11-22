@@ -11,6 +11,7 @@ class CustomWorld extends World {
 
     this.browser = await chromium.launch({ headless: false });
     this.page = await this.browser.newPage();
+    await this.openBrowser(); 
 
   }
 

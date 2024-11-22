@@ -6,7 +6,6 @@ setDefaultTimeout(30 * 1000);
 
 
 Given('I am on the e-commerce homepage', async function () {
-  await this.openBrowser(); 
   await this.page.goto(config.baseURL);
 });
 
