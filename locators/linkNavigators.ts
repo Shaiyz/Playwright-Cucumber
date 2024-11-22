@@ -1,6 +1,6 @@
 import config from '../config'
 const linkNavigators={
-    login:config.baseURL+'/'
+    login:config.baseURL + '/login'
 }
 
 
